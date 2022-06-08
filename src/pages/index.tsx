@@ -80,7 +80,7 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
           <Link href={`/post/${post.uid}`} key={post.uid}>
             <a className={styles.post}>
               <strong>{post.data.title}</strong>
-              <p>{post.data.subtitle}?</p>
+              <p>{post.data.subtitle}</p>
               <ul>
                 <li>
                   <FiCalendar />
